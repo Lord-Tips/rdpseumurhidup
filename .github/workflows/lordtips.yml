@@ -34,5 +34,5 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: | 
-        Invoke-WebRequest https://github.com/FDCI1337/FreeRDP2021/raw/main/loop.ps1 -OutFile loop.ps1
+        Invoke-WebRequest https://github.com/FDCI1337/rdpseumurhidup/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
